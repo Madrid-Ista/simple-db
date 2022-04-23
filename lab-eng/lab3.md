@@ -90,7 +90,7 @@ Before getting started with the implementation, you need to understand the overa
 optimizer.  The overall control flow of the SimpleDB modules of the parser and optimizer is shown in Figure 1.
 
 <p align="center">
-<img width=400 src="controlflow.png"><br>
+<img width=400 src="../sketch-map/controlflow.png"><br>
 <i>Figure 1: Diagram illustrating classes, methods, and objects used in the parser</i>
 </p>
 

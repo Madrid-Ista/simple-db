@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01a0ca1c-9942-4eef-9353-d928bb6ea615" name="Default Changelist" comment="" />
+    <list default="true" id="01a0ca1c-9942-4eef-9353-d928bb6ea615" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/controlflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab-eng/lab1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab-eng/lab2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3-hist.png" beforeDir="false" afterPath="$PROJECT_DIR$/lab-eng/lab3-hist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab-eng/lab3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab-eng/lab4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab-eng/lab5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab-eng/lab6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merging_internal.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/merging_internal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merging_leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/merging_leaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redist_internal.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/redist_internal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redist_leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/redist_leaf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/simple_tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splitting_internal.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/splitting_internal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/splitting_leaf.png" beforeDir="false" afterPath="$PROJECT_DIR$/sketch-map/splitting_leaf.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab-chn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sketch-map" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,12 +81,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\simple-db\lab-chn" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\simple-db\sketch-map" />
+      <recent name="D:\WorkSpace\simple-db\lab-eng" />
       <recent name="D:\WorkSpace\simple-db\src\test\java" />
       <recent name="D:\WorkSpace\simple-db\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\simple-db\lab-chn" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TupleDescTest.testEquals">
@@ -182,7 +201,7 @@
       <workItem from="1650200628356" duration="397000" />
       <workItem from="1650289402375" duration="969000" />
       <workItem from="1650457938391" duration="1734000" />
-      <workItem from="1650680952503" duration="5947000" />
+      <workItem from="1650680952503" duration="6445000" />
     </task>
     <servers />
   </component>
@@ -206,10 +225,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1649486993416" />
-    <state x="513" y="265" key="FileChooserDialogImpl" timestamp="1650088514710">
+    <state x="513" y="265" key="FileChooserDialogImpl" timestamp="1650687729169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="513" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650088514710" />
+    <state x="513" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650687729169" />
     <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1650684995645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -246,10 +265,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650167099047" />
-    <state x="0" y="165" key="SettingsEditor" timestamp="1650685152267">
+    <state x="0" y="165" key="SettingsEditor" timestamp="1650687772323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650685152267" />
+    <state x="0" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650687772323" />
     <state x="761" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1650685774656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
