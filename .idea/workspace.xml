@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="01a0ca1c-9942-4eef-9353-d928bb6ea615" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/simpledb/common/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simpledb/common/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/simpledb/CatalogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simpledb/CatalogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../afterwork/seckill" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,21 +77,8 @@
       <recent name="D:\WorkSpace\simple-db\lab-chn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jh.Main" />
-      <module name="simple-db" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TupleDescTest.getSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CatalogTest">
+    <configuration name="CatalogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-db" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +87,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="simpledb" />
-      <option name="MAIN_CLASS_NAME" value="simpledb.TupleDescTest" />
-      <option name="METHOD_NAME" value="getSize" />
+      <option name="MAIN_CLASS_NAME" value="simpledb.CatalogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatalogTest.getDatabaseFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-db" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpledb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simpledb" />
+      <option name="MAIN_CLASS_NAME" value="simpledb.CatalogTest" />
+      <option name="METHOD_NAME" value="getDatabaseFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TupleDescTest.nameToId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogTest.getTableId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-db" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +118,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="simpledb" />
-      <option name="MAIN_CLASS_NAME" value="simpledb.TupleDescTest" />
-      <option name="METHOD_NAME" value="nameToId" />
+      <option name="MAIN_CLASS_NAME" value="simpledb.CatalogTest" />
+      <option name="METHOD_NAME" value="getTableId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TupleDescTest.numFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogTest.getTupleDesc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-db" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +134,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="simpledb" />
-      <option name="MAIN_CLASS_NAME" value="simpledb.TupleDescTest" />
-      <option name="METHOD_NAME" value="numFields" />
+      <option name="MAIN_CLASS_NAME" value="simpledb.CatalogTest" />
+      <option name="METHOD_NAME" value="getTupleDesc" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TupleDescTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogTest.handleDuplicateNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="simple-db" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +150,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="simpledb" />
-      <option name="MAIN_CLASS_NAME" value="simpledb.TupleDescTest" />
-      <option name="METHOD_NAME" value="testEquals" />
+      <option name="MAIN_CLASS_NAME" value="simpledb.CatalogTest" />
+      <option name="METHOD_NAME" value="handleDuplicateNames" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TupleDescTest.testEquals" />
-        <item itemvalue="JUnit.TupleDescTest.numFields" />
-        <item itemvalue="JUnit.TupleDescTest.getSize" />
-        <item itemvalue="JUnit.TupleDescTest.nameToId" />
+        <item itemvalue="JUnit.CatalogTest" />
+        <item itemvalue="JUnit.CatalogTest.getTupleDesc" />
+        <item itemvalue="JUnit.CatalogTest.getTableId" />
+        <item itemvalue="JUnit.CatalogTest.getDatabaseFile" />
+        <item itemvalue="JUnit.CatalogTest.handleDuplicateNames" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +189,7 @@
       <workItem from="1650680952503" duration="7668000" />
       <workItem from="1650706213140" duration="2549000" />
       <workItem from="1651290671640" duration="3018000" />
+      <workItem from="1651295661004" duration="9017000" />
     </task>
     <servers />
   </component>
@@ -209,42 +213,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1651291341794" />
+    <state x="643" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1651311692645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651311692645" />
+    <state x="1060" y="325" width="650" height="583" key="#xdebugger.evaluate" timestamp="1651312689110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1060" y="325" width="650" height="583" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1651312689110" />
     <state x="513" y="265" key="FileChooserDialogImpl" timestamp="1651295177677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="513" y="265" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1651295177677" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1651295177717">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom" timestamp="1651314595123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651295177717" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1651295177717">
+    <state width="1877" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651314595123" />
+    <state width="1877" height="207" key="GridCell.Tab.0.center" timestamp="1651314595123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651295177717" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1651295177717">
+    <state width="1877" height="207" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651314595123" />
+    <state width="1877" height="207" key="GridCell.Tab.0.left" timestamp="1651314595123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651295177717" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1651295177717">
+    <state width="1877" height="207" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651314595123" />
+    <state width="1877" height="207" key="GridCell.Tab.0.right" timestamp="1651314595123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651295177717" />
-    <state width="1877" height="438" key="GridCell.Tab.1.bottom" timestamp="1650704758169">
+    <state width="1877" height="207" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651314595123" />
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom" timestamp="1651313205743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="438" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650704758169" />
-    <state width="1877" height="438" key="GridCell.Tab.1.center" timestamp="1650704758169">
+    <state width="1877" height="248" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651313205743" />
+    <state width="1877" height="248" key="GridCell.Tab.1.center" timestamp="1651313205743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="438" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650704758169" />
-    <state width="1877" height="438" key="GridCell.Tab.1.left" timestamp="1650704758169">
+    <state width="1877" height="248" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651313205743" />
+    <state width="1877" height="248" key="GridCell.Tab.1.left" timestamp="1651313205743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="438" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650704758169" />
-    <state width="1877" height="438" key="GridCell.Tab.1.right" timestamp="1650704758169">
+    <state width="1877" height="248" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651313205743" />
+    <state width="1877" height="248" key="GridCell.Tab.1.right" timestamp="1651313205743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="438" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650704758169" />
+    <state width="1877" height="248" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651313205743" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1650167099047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
