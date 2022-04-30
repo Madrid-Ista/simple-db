@@ -19,10 +19,21 @@ import java.util.concurrent.ConcurrentHashMap;
  * user program before it can be used -- eventually, this should be converted
  * to a catalog that reads a catalog table from disk.
  * 表目录
+ * 保存数据库中所有表和其关联的模式，目前由用户程序填充
  * 
  * @Threadsafe
  */
 public class Catalog {
+
+    /**
+     * 表格map
+     */
+    private Map<String, DbFile> fileMap;
+
+    /**
+     * 主键map
+     */
+    private Map<String, String> pkeyMap;
 
     /**
      * Constructor.
@@ -30,6 +41,8 @@ public class Catalog {
      */
     public Catalog() {
         // some code goes here
+        fileMap = new HashMap<>();
+        pkeyMap = new HashMap<>();
     }
 
     /**
@@ -37,9 +50,12 @@ public class Catalog {
      * This table's contents are stored in the specified DbFile.
      * @param file the contents of the table to add;  file.getId() is the identfier of
      *    this file/tupledesc param for the calls getTupleDesc and getFile
+     *    存储表的内容
      * @param name the name of the table -- may be an empty string.  May not be null.  If a name
      * conflict exists, use the last table to be added as the table for a given name.
+     *     表名，可能是空字符串，但不能为null，如果名称冲突，就覆盖已有的表
      * @param pkeyField the name of the primary key field
+     *     表主键名
      */
     public void addTable(DbFile file, String name, String pkeyField) {
         // some code goes here
