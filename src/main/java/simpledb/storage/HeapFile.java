@@ -16,18 +16,24 @@ import java.util.*;
  * size, and the file is simply a collection of those pages. HeapFile works
  * closely with HeapPage. The format of HeapPages is described in the HeapPage
  * constructor.
- * 
- * @see HeapPage#HeapPage
+ * 堆文件，实现了DbFile接口，以没有特定顺序的方式存储一系列的元组
+ * 一个堆文件被划分为一组页
+ * 页由一系列元组组成，每个元组由一个槽来存储，页中还有header。是由bitmap构成的，每个bit对应一个元组，bit=1表示该元组为“有效”状态，bit=0表示为“无效”状态（如被删除或未初始化）
+ * 页存储在缓冲池中，但是只能被heapfile读写
+ *
+ * file->pages
+ * page->tuples
+ *
  * @author Sam Madden
+ * @see HeapPage#HeapPage
  */
 public class HeapFile implements DbFile {
 
     /**
      * Constructs a heap file backed by the specified file.
-     * 
-     * @param f
-     *            the file that stores the on-disk backing store for this heap
-     *            file.
+     *
+     * @param f the file that stores the on-disk backing store for this heap
+     *          file.
      */
     public HeapFile(File f, TupleDesc td) {
         // some code goes here
@@ -35,7 +41,7 @@ public class HeapFile implements DbFile {
 
     /**
      * Returns the File backing this HeapFile on disk.
-     * 
+     *
      * @return the File backing this HeapFile on disk.
      */
     public File getFile() {
@@ -49,7 +55,7 @@ public class HeapFile implements DbFile {
      * HeapFile has a "unique id," and that you always return the same value for
      * a particular HeapFile. We suggest hashing the absolute file name of the
      * file underlying the heapfile, i.e. f.getAbsoluteFile().hashCode().
-     * 
+     *
      * @return an ID uniquely identifying this HeapFile.
      */
     public int getId() {
@@ -59,7 +65,7 @@ public class HeapFile implements DbFile {
 
     /**
      * Returns the TupleDesc of the table stored in this DbFile.
-     * 
+     *
      * @return TupleDesc of this DbFile.
      */
     public TupleDesc getTupleDesc() {

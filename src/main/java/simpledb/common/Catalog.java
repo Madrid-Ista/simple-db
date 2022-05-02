@@ -19,7 +19,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * user program before it can be used -- eventually, this should be converted
  * to a catalog that reads a catalog table from disk.
  * 表目录
- * 保存数据库中所有表和其关联的模式，目前由用户程序填充
+ * 保存数据库中所有表和其关联的格式
  *
  * @Threadsafe
  */
@@ -47,9 +47,9 @@ public class Catalog {
      */
     public Catalog() {
         // some code goes here
-        dbFileMap = new HashMap<>();
-        pkeyMap = new HashMap<>();
-        nameMap = new HashMap<>();
+        dbFileMap = new ConcurrentHashMap<>();
+        pkeyMap = new ConcurrentHashMap<>();
+        nameMap = new ConcurrentHashMap<>();
     }
 
     /**

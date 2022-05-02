@@ -19,7 +19,7 @@ public class Tuple implements Serializable {
     private TupleDesc td;
 
     /**
-     * 元组位置
+     * 元组id，是元组在特定页的特定表中的唯一标识
      */
     private RecordId rid;
 
@@ -30,6 +30,7 @@ public class Tuple implements Serializable {
 
     /**
      * Create a new tuple with the specified schema (type).
+     * 根据特定格式，创建一个新元组
      *
      * @param td the schema of this tuple. It must be a valid TupleDesc
      *           instance with at least one field.
@@ -76,6 +77,7 @@ public class Tuple implements Serializable {
 
     /**
      * Change the value of the ith field of this tuple.
+     * 改变元组中第i个字段的值
      *
      * @param i index of the field to change. It must be a valid index.
      * @param f new value for the field.

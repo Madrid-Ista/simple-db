@@ -7,6 +7,7 @@ import java.util.*;
 
 /**
  * TupleDesc describes the schema of a tuple.
+ * 描述一个元组的格式
  */
 public class TupleDesc implements Serializable {
 

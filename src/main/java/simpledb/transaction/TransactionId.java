@@ -10,10 +10,20 @@ public class TransactionId implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    static final AtomicLong counter = new AtomicLong(0);
+	/**
+	 * 线程安全的类成员变量
+	 */
+	static final AtomicLong counter = new AtomicLong(0);
+
+	/**
+	 * 不能改变的实例变量
+	 */
     final long myid;
 
-    public TransactionId() {
+	/**
+	 * 构造方法：每个实例获得一个唯一且不能改变的id
+	 */
+	public TransactionId() {
         myid = counter.getAndIncrement();
     }
 
