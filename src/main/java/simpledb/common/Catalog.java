@@ -31,7 +31,7 @@ public class Catalog {
     private Map<String, DbFile> dbFileMap;
 
     /**
-     * 主键map，key=表明，value=表主键名称
+     * 主键map，key=表名，value=表主键名称
      */
     private Map<String, String> pkeyMap;
 
@@ -112,7 +112,7 @@ public class Catalog {
      */
     public int getTableId(String name) throws NoSuchElementException {
         // some code goes here
-        if (dbFileMap.containsKey(name)) {
+        if (Objects.nonNull(name) && dbFileMap.containsKey(name)) {
             return dbFileMap.get(name).getId();
         } else {
             throw new NoSuchElementException();
